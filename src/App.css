@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: white;
+}
+
+.waltercabral-imagen {
+  display: none;
+  cursor: pointer;
+}
+
+.gansoarce-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gansoarce-imagen {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.gansoarce-imagen:hover {
+  animation: spin 2s linear infinite; /* Aplica la animación de rotación continua */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
