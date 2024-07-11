@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import gansoarce from './imagenes/gansoarce.png'
 import waltercabral from './imagenes/waltercabral.png'
@@ -35,7 +34,8 @@ function App() {
       <div className='gansoarce-contenedor'>
       <img
         src={gansoarce}
-        className='gansoarce-imagen'/>
+        className='gansoarce-imagen'
+        alt='gansoarce'/>
       </div>
       <div
         className="waltercabral-imagen"
